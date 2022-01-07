@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+}
+
+h1 {
+    font-family: Big Shoulders Display;
+}
+
+p {
+    font-family: Lexend Deca;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%)
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.child {
+    max-width: fit-content;
+}
+
+button {
+    border-radius: 25px;
+    font-family: Lexend Deca;
+    padding: 15px 25px;
+}
+
+@media (max-width: 600px) {
+    .main {
+        flex-direction: column;
+    }
+}
